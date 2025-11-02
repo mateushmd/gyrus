@@ -6,8 +6,6 @@ pkgs.mkShell {
     (pkgs.python3.withPackages (python-pkgs: [
       python-pkgs.numpy
       python-pkgs.pytest_7
-      python-pkgs.pandas
-      python-pkgs.pandas-stubs
     ]))
   ];
 
